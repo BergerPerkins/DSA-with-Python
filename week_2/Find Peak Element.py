@@ -1,8 +1,8 @@
 
 ######    https://leetcode.com/problems/find-peak-element/description/?envType=study-plan-v2&envId=top-interview-150    ####
 
-#time complexity : O
-#space complexity : O
+#time complexity : O(log n)
+#space complexity : O(1)
 class Solution:
     def findPeakElement(self, nums: List[int]) -> int:
         n=len(nums)
